@@ -1,4 +1,4 @@
-var seasons = [
+var favSeasons = [
 	{
 		season: "Winter",
 		months: "December - February",
@@ -19,4 +19,22 @@ var seasons = [
 		months: "September - November",
 		activities: "Going to the mountains, Jumping in a pile of leaves, Carving pumpkins, Building bonfires"
 	}
-]
+];
+
+
+var input = document.getElementById("season");
+var btn = document.getElementById("btn");
+var facts = document.getElementById("facts");
+
+function findSeason() {
+	for(var i = 0; i < favSeasons.length; i++) {
+		console.log(xfavSeasons[i].season)
+		if(input.value == favSeasons[i].season) {
+			console.log("found a match")
+		}
+
+	}
+
+}
+
+
